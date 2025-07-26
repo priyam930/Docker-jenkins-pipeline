@@ -1,35 +1,34 @@
 # Docker-jenkins-pipeline
-# 🌐 Deploying a Dockerized Web App using Ansible on a Manually Configured Kubernetes Cluster
+# 🐳 Building a Docker Image from Scratch & Automating Deployment using Jenkins and Local Docker
 
-## LW_PROJECT_3
+## LW_PROJECT_4
 
-This project demonstrates how to automate the deployment of a **Dockerized Web Application** on a **manually configured Kubernetes cluster** using **Ansible**. It covers infrastructure provisioning, container orchestration, and app deployment end-to-end.
+This project demonstrates how to create a **Docker image from scratch** (no base image), build a simple application, and **automate its deployment** using **Jenkins pipelines** on a **local Docker environment**.
 
 ---
 
 ## 📖 Blog Post
 
-📝 Check out the full tutorial and step-by-step guide on Medium:  
-👉 [Deploying a Dockerized Web App using Ansible on a Manually Configured Kubernetes Cluster](https://medium.com/@priyamsanodiya340/deploying-a-dockerized-web-app-using-ansible-on-a-manually-configured-kubernetes-cluster-6bd6ca94de03)
+📝 Dive into the complete step-by-step tutorial on Medium:  
+👉 [Building a Docker Image from Scratch & Automating Deployment using Jenkins and Local Docker](https://medium.com/@priyamsanodiya340/building-a-docker-image-from-scratch-and-automating-deployment-using-jenkins-and-local-docker-0ac2c02f7f82)
 
 ---
 
 ## ⚙️ Tech Stack
 
-- 🐳 Docker
-- ☸️ Kubernetes (manual setup)
-- ⚙️ Ansible
-- 🌐 Web App (Node.js / Flask / Any Sample App)
-- 📜 YAML (for deployment and service manifests)
+- 🐳 Docker (from scratch)
+- 🧪 Jenkins (CI/CD pipeline)
+- 🖥️ Localhost deployment
 
 ---
 
-## 🚀 Features
+## 🚀 Key Highlights
 
-- Manual setup of a multi-node Kubernetes cluster
-- Docker image build and deployment automation using Ansible
-- Kubernetes deployment and service configuration
-- Scalable and reproducible infrastructure
+- Build a fully functional Docker image without using `FROM` directive
+- Create a basic app (e.g., C program, static binary, or script-based web server)
+- Set up Jenkins pipeline to:
+  - Watch source code changes
+  - Build the image
+  - Run the container locally
 
 ---
-
